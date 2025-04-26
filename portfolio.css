@@ -1,0 +1,149 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.portfolio{
+    height: 150px;
+    width: 200px;
+    border: solid;
+    font-size: 50px;
+    /* text-align: center; */
+    border-color: black;
+    display: flex;
+    
+  
+}
+.whole{
+    border: solid;
+    /* text-align: center; */
+    border-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav ul {
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    height:100px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+   justify-self: flex-end;
+    justify-content: space-between;
+}
+li{
+    margin-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    height: 30px;
+    width: 70px;
+
+   
+  
+}
+ .downlod{
+    height: fit-content;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: brown;
+    border-radius: 8px;
+    text-align: center;
+
+ }
+ .downlod:active{
+    background-color: rgb(98, 98, 210);
+ }
+ .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+ }
+ span {
+    font-size: 50px;
+    display: flex;
+    justify-items: center;
+ }
+ .well{
+    margin-right: 60%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+   color: brown;
+ }
+ .aboutmee{
+    display: flex;
+    justify-content: left;
+    margin-right: 57%;
+    font: bolder;
+    font-size: 35px;
+    margin-top: 30px;
+ }
+.about{
+    font-family: 'Times New Roman', Times, serif, Courier, monospace;
+    height: 300px;
+    width: 800px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    font-size: 20px;
+}
+img{
+    border-bottom: 200px;
+    border: 3px solid black;
+    border-radius: 50px;
+    margin-left:15%;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    
+}
+.footer,li,ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;   
+}
+.let{
+    height: 33px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: 4px;
+    background-color: brown;
+}
+.let{
+    margin-right:2px0;
+}
+.ab {
+    height: 30px;
+    margin-bottom: 20px;
+    margin-right:200px ;
+    margin-left: 10px;
+    border:2px solid brown;
+    border-radius: 10%;
+}
+.insta{
+    height: 30px;
+    margin-bottom: 20px;
+    margin-right:20px ;
+    margin-left: 10px;
+    border:2px solid brown;
+    border-radius: 10%;
+    background-color: brown;
+}
+.ab:hover{
+    background-color: brown;
+    transition: all;
+    transition-duration: 6ms;
+animation-direction: alternate-reverse ;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
